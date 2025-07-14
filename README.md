@@ -22,7 +22,7 @@
 ## 🚀 Quick Start (Windows)
 
 1. **Download `f.exe`** from the [Releases](https://github.com/thechampusman/flutter_unicorn/releases) page.
-2. Place it somewhere like `C:\tools\flutter_unicorn\`
+2. Place it somewhere like `C:\flutter_unicorn\`
 3. Add that folder to your system **PATH**
 4. Open any terminal and run:
    ```sh
