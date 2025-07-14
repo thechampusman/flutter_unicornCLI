@@ -13,7 +13,7 @@
 - ✅ Interactive beginner-friendly menu (`f m`)  
 - ✅ Command-specific help (`f fc-h`)  
 - ✅ Colorful output (no external packages used)  
-- ✅ Fully cross-platform source: works on Windows, Linux, macOS  
+- ✅ Currently works on Windows,
 - ✅ VS Code / Android Studio integration  
 - ✅ Just one lightweight binary (`f.exe`) for Windows  
 
@@ -22,7 +22,7 @@
 ## 🚀 Quick Start (Windows)
 
 1. **Download `f.exe`** from the [Releases](https://github.com/thechampusman/flutter_unicorn/releases) page.
-2. Place it somewhere like `C:\tools\flutter_unicorn\`
+2. Place it somewhere like `C:\flutter_unicorn\`
 3. Add that folder to your system **PATH**
 4. Open any terminal and run:
    ```sh
