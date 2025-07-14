@@ -1,4 +1,4 @@
-# 🦄 FlutterUnicorn CLI
+# 🦄 FlutterUnicorn CLI (a magic dev tool)
 
 > **Blazing-fast custom CLI for Flutter developers.**  
 > Interactive menu, color output, and powerful shortcuts.  
@@ -22,7 +22,7 @@
 ## 🚀 Quick Start (Windows)
 
 1. **Download `f.exe`** from the [Releases](https://github.com/thechampusman/flutter_unicorn/releases) page.
-2. Place it somewhere like `C:\flutter_unicorn\`
+2. Place it somewhere like `C:\tools\flutter_unicorn\`
 3. Add that folder to your system **PATH**
 4. Open any terminal and run:
    ```sh
@@ -97,6 +97,27 @@ f m                          # Interactive menu
 
 ---
 
+## 🛡️ Privacy & Trust
+
+> **Your privacy is 100% respected.**
+>
+> - This tool does **not** collect, transmit, or store any of your data.
+> - No analytics, no tracking, no "improve experience" popups—**nothing leaves your machine**.
+> - All your code, commands, and workflow are **yours and yours alone**.
+
+Enjoy full peace of mind while boosting your productivity!
+
+---
+
+## ✨ Some Glimpses
+
+<img width="854" height="157" alt="image" src="https://github.com/user-attachments/assets/7a520ce8-d37f-4e9b-9c1d-5ac86b417f9c" />
+<img width="758" height="939" alt="image" src="https://github.com/user-attachments/assets/a30cfefd-00ca-4431-9250-3f87288874b0" />
+<img width="651" height="204" alt="image" src="https://github.com/user-attachments/assets/10e105bf-af3b-4a21-8e0b-8de178aa540d" />
+
+
+---
+
 ## 📬 Feedback
 
 💬 Want to suggest a new feature or command?  
@@ -119,3 +140,7 @@ f m                          # Interactive menu
 Mobile & Windows App Developer (Flutter Expert)  
 🦄 Creator of FlutterUnicorn CLI  
 🔗 [GitHub: @thechampusman](https://github.com/thechampusman)
+  
+
+---
+
