@@ -112,7 +112,9 @@ Enjoy full peace of mind while boosting your productivity!
 ## ✨ Some Glimpses
 
 <img width="854" height="157" alt="image" src="https://github.com/user-attachments/assets/7a520ce8-d37f-4e9b-9c1d-5ac86b417f9c" />
+---
 <img width="758" height="939" alt="image" src="https://github.com/user-attachments/assets/a30cfefd-00ca-4431-9250-3f87288874b0" />
+---
 <img width="651" height="204" alt="image" src="https://github.com/user-attachments/assets/10e105bf-af3b-4a21-8e0b-8de178aa540d" />
 
 
