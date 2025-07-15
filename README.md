@@ -5,6 +5,7 @@
 > Speed up your daily Flutter and Git workflow with intuitive commands like `f fc`, `f fb apk`, `f g2 "commit message"` and more.
 
 ---
+![f.exe downloads](https://img.shields.io/github/downloads/thechampusman/FlutterUnicorn/latest/f.exe?style=for-the-badge)
 ![Downloads](https://img.shields.io/github/downloads/thechampusman/FlutterUnicorn/total?style=for-the-badge)
 
 ## 📦 Features
