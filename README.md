@@ -165,6 +165,7 @@ Enjoy full peace of mind while boosting your productivity!
 📧 Email: usmangourworkid@gmail.com  
 🕸️ GitHub: https://github.com/thechampusman/  
 🔗 LinkedIn: https://linkedin.com/in/thechampusman/
+✈️ Telegram: [@thechampusman](https://t.me/thechampusman)
 
 ---
 

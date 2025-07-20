@@ -2,36 +2,37 @@
 
 ---
 
+
 ## Table of Contents
-1. Introduction
-2. Features
-3. Installation
-    - Windows
-    - Linux & macOS
-    - From Source
-4. Getting Started
-5. Command Reference
-    - Flutter Shortcuts
-    - Git Shortcuts
-    - Interactive Menu
-6. Advanced Usage
-    - Aliases & Customization
-    - Templates (Coming Soon)
-7. Troubleshooting
-8. Contributing
-9. License
-10. FAQ
-11. Contact & Community
+1. [🦄 Introduction](#1-introduction)
+2. [✨ Features](#2-features)
+3. [💻 Installation](#3-installation)
+    - [🪟 Windows](#windows)
+    - [🐧 Linux & 🍏 macOS](#linux--macos)
+    - [🛠️ From Source](#from-source)
+4. [🚀 Getting Started](#4-getting-started)
+5. [📚 Command Reference](#5-command-reference)
+    - [🧩 Flutter Shortcuts](#flutter-shortcuts)
+    - [🔧 Git Shortcuts](#git-shortcuts)
+    - [🗂️ Interactive Menu](#interactive-menu)
+6. [⚡ Advanced Usage](#6-advanced-usage)
+    - [🔗 Aliases & Customization](#aliases--customization)
+    - [📦 Templates (Coming Soon)](#templates-coming-soon)
+7. [🛠️ Troubleshooting](#7-troubleshooting)
+8. [🤝 Contributing](#8-contributing)
+9. [📝 License](#9-license)
+10. [❓ FAQ](#10-faq)
+11. [💬 Contact & Community](#11-contact--community)
 
 ---
 
-## 1. Introduction
+## 1. 🦄 Introduction
 
 **FlutterUnicorn CLI** is a blazing-fast, cross-platform command-line tool designed to supercharge your Flutter and Git workflow. It provides intuitive, one-letter shortcuts for common Flutter and Git commands, an interactive menu for beginners, and a privacy-first experience.
 
 ---
 
-## 2. Features
+## 2. ✨ Features
 
 - 🚀 One-letter shorthand for all major Flutter commands
 - 🛠️ Git integration: add, commit, push with a single keystroke
@@ -45,9 +46,9 @@
 
 ---
 
-## 3. Installation
+## 3. 💻 Installation
 
-### Windows
+### 🪟 Windows
 1. Download `f.exe` from the [Releases](https://github.com/thechampusman/flutter_unicornCLI/releases) page.
 2. Place it in a folder like `C:\tools\flutter_unicorn\`.
 3. Add that folder to your system **PATH**.
@@ -56,7 +57,7 @@
     f -h
     ```
 
-### Linux & macOS
+### 🐧 Linux & 🍏 macOS
 1. Download the `f` binary for your OS from [Releases](https://github.com/thechampusman/flutter_unicornCLI/releases)
    *(or compile it yourself with `dart compile exe bin/flutterunicorn.dart -o f` on your platform)*
 2. Move it to a folder in your PATH, e.g.:
@@ -76,7 +77,7 @@
     f -h
     ```
 
-### From Source
+### 🛠️ From Source
 1. Clone the repository:
     ```sh
     git clone https://github.com/thechampusman/flutter_unicornCLI.git
@@ -90,7 +91,7 @@
 
 ---
 
-## 4. Getting Started
+## 4. 🚀 Getting Started
 
 After installation, open a terminal and type:
 ```sh
@@ -100,9 +101,9 @@ This will show the main help menu with all available commands and usage examples
 
 ---
 
-## 5. Command Reference
+## 5. 📚 Command Reference
 
-### Flutter Shortcuts
+### 🧩 Flutter Shortcuts
 | Command         | Description                               |
 |-----------------|-------------------------------------------|
 | f c             | Flutter clean                             |
@@ -139,14 +140,14 @@ This will show the main help menu with all available commands and usage examples
 | f -h            | Show usage/help                           |
 | f <cmd>-h       | Help for any specific command             |
 
-### Git Shortcuts
+### 🔧 Git Shortcuts
 | Command         | Description                |
 |-----------------|---------------------------|
 | f g1            | git add .                 |
 | f g2 "msg"      | git commit -m "msg"       |
 | f g3            | git push                  |
 
-### Interactive Menu
+### 🗂️ Interactive Menu
 Run:
 ```sh
 f m
@@ -155,19 +156,19 @@ You’ll see a menu with numbered options for common tasks. Just enter the numbe
 
 ---
 
-## 6. Advanced Usage
+## 6. ⚡ Advanced Usage
 
-### Aliases & Customization
+### 🔗 Aliases & Customization
 *Coming soon!*  
 You’ll be able to define your own command aliases and templates for even faster workflows.
 
-### Templates (Coming Soon)
+### 📦 Templates (Coming Soon)
 *Planned feature:*  
 Generate new pages, widgets, or services with a single command, using built-in or user-defined templates.
 
 ---
 
-## 7. Troubleshooting
+## 7. 🛠️ Troubleshooting
 - **Flutter not found in system PATH:**  
   Make sure Flutter is installed and added to your PATH.  
   Run `flutter --version` to check.
@@ -181,18 +182,18 @@ Generate new pages, widgets, or services with a single command, using built-in o
 
 ---
 
-## 8. Contributing
+## 8. 🤝 Contributing
 We welcome all contributions, bug fixes, feature requests, and improvements!
 See [CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines.
 
 ---
 
-## 9. License
+## 9. 📝 License
 This project is licensed under the GNU General Public License v3.0.
 
 ---
 
-## 10. FAQ
+## 10. ❓ FAQ
 **Q: Does this tool collect any data?**  
 A: No. Your privacy is 100% respected. No data is collected, transmitted, or stored.
 
@@ -207,10 +208,12 @@ A: Absolutely! Open an issue or email the author.
 
 ---
 
-## 11. Contact & Community
+
+## 11. 💬 Contact & Community
 - 📧 Email: usmangourworkid@gmail.com  
 - 🕸️ GitHub: [thechampusman](https://github.com/thechampusman/flutter_unicornCLI)  
 - 🔗 LinkedIn: [thechampusman](https://linkedin.com/in/thechampusman/)
+- ✈️ Telegram: [@thechampusman](https://t.me/thechampusman)
 
 ---
 
