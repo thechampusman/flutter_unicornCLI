@@ -19,15 +19,16 @@ class Logger {
     print('\x1B[36m▶️  Running: $cmd\x1B[0m'); // Cyan
   }
 
-    void printBanner() {
-  print('''
+  void printBanner() {
+    print('''
 ╔════════════════════════════════════════════════════════════════════════╗
 ║      🦄 FlutterUnicorn CLI (a magic dev tool) by Usman (The Champ)     ║
-║     🔗 GitHub: https://github.com/thechampusman                        ║
-║     💼 LinkedIn: https://www.linkedin.com/in/thechampusman/            ║
+║   🌐 Website: https://flutterunicorncli.netlify.app/                   ║
+║   🔗 GitHub: https://github.com/thechampusman                          ║
+║   💼 LinkedIn: https://www.linkedin.com/in/thechampusman/              ║
 ╚════════════════════════════════════════════════════════════════════════╝
 ''');
-}
+  }
 }
 
 final logger = Logger();
