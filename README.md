@@ -1,6 +1,6 @@
 # 🦄 FlutterUnicorn CLI
 
-[📖 Full Usage Guide](docs/USAGE.md)
+
 
 ## 🖼️ Banners
 
@@ -9,6 +9,14 @@
 </p>
 <p align="center">
   <img src="images/flutterCLI_banner.png" alt="FlutterUnicorn CLI Banner Dark" width="80%">
+</p>
+
+---
+
+<p align="center">
+  <a href="docs/USAGE.md" style="font-size:1.3em; font-weight:bold;">
+    <img src="https://img.shields.io/badge/📖%20Full%20Usage%20Guide-blueviolet?style=for-the-badge" alt="Full Usage Guide"/>
+  </a>
 </p>
 
 ---
