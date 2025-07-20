@@ -1,5 +1,7 @@
 # 🦄 FlutterUnicorn CLI
 
+[📖 Full Usage Guide](docs/USAGE.md)
+
 ## 🖼️ Banners
 
 <p align="center">
