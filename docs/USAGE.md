@@ -401,34 +401,11 @@ A: Absolutely! Open an issue or email the author.
 
 
 ## 11. 💬 Contact & Community
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin: 25px 0;">
-  <a href="https://flutterunicorncli.netlify.app/" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 15px; border-radius: 10px; text-align: center; transition: transform 0.2s;">
-    <div style="font-size: 1.5em;">🌐</div>
-    <div style="font-weight: bold; margin-top: 5px;">Website</div>
-    <div style="font-size: 0.9em; opacity: 0.9;">flutterunicorncli.netlify.app</div>
-  </a>
-  <a href="mailto:usmangourworkid@gmail.com" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 15px; border-radius: 10px; text-align: center; transition: transform 0.2s;">
-    <div style="font-size: 1.5em;">�</div>
-    <div style="font-weight: bold; margin-top: 5px;">Email</div>
-    <div style="font-size: 0.9em; opacity: 0.9;">usmangourworkid@gmail.com</div>
-  </a>
-  <a href="https://github.com/thechampusman/flutter_unicornCLI" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 15px; border-radius: 10px; text-align: center; transition: transform 0.2s;">
-    <div style="font-size: 1.5em;">�️</div>
-    <div style="font-weight: bold; margin-top: 5px;">GitHub</div>
-    <div style="font-size: 0.9em; opacity: 0.9;">@thechampusman</div>
-  </a>
-  <a href="https://linkedin.com/in/thechampusman/" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); padding: 15px; border-radius: 10px; text-align: center; transition: transform 0.2s;">
-    <div style="font-size: 1.5em;">🔗</div>
-    <div style="font-weight: bold; margin-top: 5px;">LinkedIn</div>
-    <div style="font-size: 0.9em; opacity: 0.9;">@thechampusman</div>
-  </a>
-  <a href="https://t.me/thechampusman" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 15px; border-radius: 10px; text-align: center; transition: transform 0.2s;">
-    <div style="font-size: 1.5em;">✈️</div>
-    <div style="font-weight: bold; margin-top: 5px;">Telegram</div>
-    <div style="font-size: 0.9em; opacity: 0.9;">@thechampusman</div>
-  </a>
-</div>
+- 🌐 Website: [flutterunicorncli.netlify.app](https://flutterunicorncli.netlify.app/)  
+- 📧 Email: usmangourworkid@gmail.com  
+- 🕸️ GitHub: [thechampusman](https://github.com/thechampusman/flutter_unicornCLI)  
+- 🔗 LinkedIn: [thechampusman](https://linkedin.com/in/thechampusman/)
+- ✈️ Telegram: [@thechampusman](https://t.me/thechampusman)
 
 ---
 
