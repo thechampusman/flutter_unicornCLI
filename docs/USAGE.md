@@ -13,7 +13,7 @@ Run:
 ```sh
 f m
 ```
-You'll see a menu with numbered options for common tasks. Just enter the number to run the command—perfect for beginners!der-radius: 10px; color: white; text-align: center; margin: 20px 0;">
+You'll see a menu with numbered options for common tasks. Just enter the number to run the command—perfect for beginners!"
   <h2 style="margin: 0; color: white;">🚀 Blazing-fast Flutter & Git CLI</h2>
   <p style="margin: 10px 0 0 0; color: #f1f5f9;">One-letter shortcuts • Cross-platform • Privacy-first • Open Source</p>
 </div>
