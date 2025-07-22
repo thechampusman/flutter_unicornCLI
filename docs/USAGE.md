@@ -4,16 +4,43 @@
 </div>
 
 <div style="background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; color: white; text-align: center; margin: 20px 0;">
-  <h2 sty  <a href="mailto:usmangourworkid@gmail.com" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 15px; border-radius: 10px; text-align: center; transition: transform 0.2s;">
+  <h2 sty  <a href    <a href  <a href=  <a href=  <a href="    <div style="font-size: 2em; margin-bottom: 8px;">💼</div>ttps://github.com/thechampusman/flutter_unicornCLI" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 20px; border-radius: 12px; text-align: center; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(79, 172, 254, 0.3); display: block;">
+    <div style="font-size: 2em; margin-bottom: 8px;">🐙</div>
+    <div style="font-weight: bold; font-size: 1.1em; margin-bottom: 5px;">GitHub Repository</div>
+    <div style="font-size: 0.9em; opacity: 0.9;">@thechampusman</div>
+    <div style="font-size: 0.8em; margin-top: 8px; opacity: 0.8;">Source code & issues</div>
+  </a>to:usmangourworkid@gmail.com" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 20px; border-radius: 12px; text-align: center; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(240, 147, 251, 0.3); display: block;">
+    <div style="font-size: 2em; margin-bottom: 8px;">📧</div>
+    <div style="font-weight: bold; font-size: 1.1em; margin-bottom: 5px;">Email Support</div>
+    <div style="font-size: 0.9em; opacity: 0.9;">usmangourworkid@gmail.com</div>
+    <div style="font-size: 0.8em; margin-top: 8px; opacity: 0.8;">Send us a message</div>
+  </a>href="https://github.com/thechampusman/flutter_unicornCLI" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 20px; border-radius: 12px; text-align: center; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(79, 172, 254, 0.3); display: block;">
+    <div style="font-size: 2em; margin-bottom: 8px;">🐙</div>
+    <div style="font-weight: bold; font-size: 1.1em; margin-bottom: 5px;">GitHub Repository</div>
+    <div style="font-size: 0.9em; opacity: 0.9;">@thechampusman</div>
+    <div style="font-size: 0.8em; margin-top: 8px; opacity: 0.8;">Source code & issues</div>
+  </a>to:usmangourworkid@gmail.com" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 20px; border-radius: 12px; text-align: center; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(240, 147, 251, 0.3); display: block;">
+    <div style="font-size: 2em; margin-bottom: 8px;">📧</div>
+    <div style="font-weight: bold; font-size: 1.1em; margin-bottom: 5px;">Email Support</div>
+    <div style="font-size: 0.9em; opacity: 0.9;">usmangourworkid@gmail.com</div>
+    <div style="font-size: 0.8em; margin-top: 8px; opacity: 0.8;">Send us a message</div>
+  </a>href="https://github.com/thechampusman/flutter_unicornCLI" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 15px; border-radius: 10px; text-align: center; transition: transform 0.2s;">
+    <div style="font-size: 1.5em;">🐙</div>
+    <div style="font-weight: bold; margin-top: 5px;">GitHub</div>
+    <div style="font-size: 0.9em; opacity: 0.9;">@thechampusman</div>
+  </a>lto:usmangourworkid@gmail.com" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 15px; border-radius: 10px; text-align: center; transition: transform 0.2s;">
     <div style="font-size: 1.5em;">📧</div>
     <div style="font-weight: bold; margin-top: 5px;">Email</div>
     <div style="font-size: 0.9em; opacity: 0.9;">usmangourworkid@gmail.com</div>
-  </a>
-  <a href="https://github.com/thechampusman/flutter_unicornCLI" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 15px; border-radius: 10px; text-align: center; transition: transform 0.2s;">
-    <div style="font-size: 1.5em;">🕸️</div>
+  </a>  <div style="font-size: 1.5em;">🐙</div>iv style="font-size: 1.5em;">📧</div> <a href="https://github.com/thechampusman/flutter_unicornCLI" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 15px; border-radius: 10px; text-align: center; transition: transform 0.2s;">
+    <div style="font-size: 1.5em;">🐙</div>
     <div style="font-weight: bold; margin-top: 5px;">GitHub</div>
     <div style="font-size: 0.9em; opacity: 0.9;">@thechampusman</div>
-  </a>: 0; color: white;">🚀 Blazing-fast Flutter & Git CLI</h2>
+  </a>lto:usmangourworkid@gmail.com" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 15px; border-radius: 10px; text-align: center; transition: transform 0.2s;">
+    <div style="font-size: 1.5em;">📧</div>
+    <div style="font-weight: bold; margin-top: 5px;">Email</div>
+    <div style="font-size: 0.9em; opacity: 0.9;">usmangourworkid@gmail.com</div>
+  </a><    <div style="font-size: 1.5em;">🐙</div>iv style="font-size: 1.5em;">📧</div>="margin: 0; color: white;">🚀 Blazing-fast Flutter & Git CLI</h2>
   <p style="margin: 10px 0 0 0; color: #f1f5f9;">One-letter shortcuts • Cross-platform • Privacy-first • Open Source</p>
 </div>
 
@@ -401,11 +428,15 @@ A: Absolutely! Open an issue or email the author.
 
 ## 11. 💬 Contact & Community
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin: 25px 0;">
-  <a href="https://flutterunicorncli.netlify.app/" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 15px; border-radius: 10px; text-align: center; transition: transform 0.2s;">
-    <div style="font-size: 1.5em;">🌐</div>
-    <div style="font-weight: bold; margin-top: 5px;">Website</div>
+<div style="background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 15px; padding: 30px; margin: 30px 0;">
+  <h3 style="text-align: center; color: #1e293b; margin: 0 0 25px 0; font-size: 1.5em;">🌟 Connect with the FlutterUnicorn Community</h3>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 0;">
+  <a href="https://flutterunicorncli.netlify.app/" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 12px; text-align: center; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3); display: block;">
+    <div style="font-size: 2em; margin-bottom: 8px;">🌐</div>
+    <div style="font-weight: bold; font-size: 1.1em; margin-bottom: 5px;">Official Website</div>
     <div style="font-size: 0.9em; opacity: 0.9;">flutterunicorncli.netlify.app</div>
+    <div style="font-size: 0.8em; margin-top: 8px; opacity: 0.8;">Visit our homepage</div>
   </a>
   <a href="mailto:usmangourworkid@gmail.com" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 15px; border-radius: 10px; text-align: center; transition: transform 0.2s;">
     <div style="font-size: 1.5em;">�</div>
@@ -417,16 +448,25 @@ A: Absolutely! Open an issue or email the author.
     <div style="font-weight: bold; margin-top: 5px;">GitHub</div>
     <div style="font-size: 0.9em; opacity: 0.9;">@thechampusman</div>
   </a>
-  <a href="https://linkedin.com/in/thechampusman/" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); padding: 15px; border-radius: 10px; text-align: center; transition: transform 0.2s;">
-    <div style="font-size: 1.5em;">🔗</div>
-    <div style="font-weight: bold; margin-top: 5px;">LinkedIn</div>
+  <a href="https://linkedin.com/in/thechampusman/" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); padding: 20px; border-radius: 12px; text-align: center; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(67, 233, 123, 0.3); display: block;">
+    <div style="font-size: 2em; margin-bottom: 8px;">�</div>
+    <div style="font-weight: bold; font-size: 1.1em; margin-bottom: 5px;">LinkedIn</div>
     <div style="font-size: 0.9em; opacity: 0.9;">@thechampusman</div>
+    <div style="font-size: 0.8em; margin-top: 8px; opacity: 0.8;">Professional network</div>
   </a>
-  <a href="https://t.me/thechampusman" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 15px; border-radius: 10px; text-align: center; transition: transform 0.2s;">
-    <div style="font-size: 1.5em;">✈️</div>
-    <div style="font-weight: bold; margin-top: 5px;">Telegram</div>
+  <a href="https://t.me/thechampusman" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 12px; text-align: center; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3); display: block;">
+    <div style="font-size: 2em; margin-bottom: 8px;">✈️</div>
+    <div style="font-weight: bold; font-size: 1.1em; margin-bottom: 5px;">Telegram</div>
     <div style="font-size: 0.9em; opacity: 0.9;">@thechampusman</div>
+    <div style="font-size: 0.8em; margin-top: 8px; opacity: 0.8;">Quick chat support</div>
   </a>
+</div>
+
+  <div style="text-align: center; margin-top: 25px; padding: 15px; background: linear-gradient(90deg, #e0e7ff 0%, #f3e8ff 100%); border-radius: 10px;">
+    <p style="margin: 0; color: #4c1d95; font-weight: 500;">
+      💡 <strong>Need help?</strong> Don't hesitate to reach out through any of these channels!
+    </p>
+  </div>
 </div>
 
 ---
