@@ -3,18 +3,17 @@
   <p style="font-size: 1.3em; color: #64748b; margin-bottom: 30px;">Comprehensive Documentation</p>
 </div>
 
-<div style="background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); padding: 20px; border-### 🗂️ Interactive Menu
-
-<div style="background: #dbeafe; border: 2px solid #93c5fd; border-radius: 12px; padding: 20px; margin: 20px 0;">
-  <p style="margin: 0; color: #1e40af; font-size: 1.1em;"><strong>💡 Tip:</strong> Run <code style="background: #f1f5f9; padding: 4px 8px; border-radius: 4px; color: #3b82f6;">f m</code> to launch the interactive menu!</p>
-</div>
-
-Run:
-```sh
-f m
-```
-You'll see a menu with numbered options for common tasks. Just enter the number to run the command—perfect for beginners!: 10px; color: white; text-align: center; margin: 20px 0;">
-  <h2 style="margin: 0; color: white;">🚀 Blazing-fast Flutter & Git CLI</h2>
+<div style="background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; color: white; text-align: center; margin: 20px 0;">
+  <h2 sty  <a href="mailto:usmangourworkid@gmail.com" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 15px; border-radius: 10px; text-align: center; transition: transform 0.2s;">
+    <div style="font-size: 1.5em;">📧</div>
+    <div style="font-weight: bold; margin-top: 5px;">Email</div>
+    <div style="font-size: 0.9em; opacity: 0.9;">usmangourworkid@gmail.com</div>
+  </a>
+  <a href="https://github.com/thechampusman/flutter_unicornCLI" style="text-decoration: none; color: #ffffff; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 15px; border-radius: 10px; text-align: center; transition: transform 0.2s;">
+    <div style="font-size: 1.5em;">🕸️</div>
+    <div style="font-weight: bold; margin-top: 5px;">GitHub</div>
+    <div style="font-size: 0.9em; opacity: 0.9;">@thechampusman</div>
+  </a>: 0; color: white;">🚀 Blazing-fast Flutter & Git CLI</h2>
   <p style="margin: 10px 0 0 0; color: #f1f5f9;">One-letter shortcuts • Cross-platform • Privacy-first • Open Source</p>
 </div>
 
@@ -22,39 +21,29 @@ You'll see a menu with numbered options for common tasks. Just enter the number 
 
 <div style="background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; padding: 25px; margin: 25px 0;">
   <h2 style="color: #1e293b; margin-top: 0; text-align: center;">📚 Table of Contents</h2>
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; margin-top: 20px;">
-    <a href="#1--introduction" style="text-decoration: none; color: #3b82f6; padding: 8px; border-radius: 6px; background: #ffffff; border: 1px solid #e2e8f0; transition: all 0.2s;">🦄 Introduction</a>
-    <a href="#2--features" style="text-decoration: none; color: #3b82f6; padding: 8px; border-radius: 6px; background: #ffffff; border: 1px solid #e2e8f0;">✨ Features</a>
-    <a href="#3--installation" style="text-decoration: none; color: #3b82f6; padding: 8px; border-radius: 6px; background: #ffffff; border: 1px solid #e2e8f0;">💻 Installation</a>
-    <a href="#4--getting-started" style="text-decoration: none; color: #3b82f6; padding: 8px; border-radius: 6px; background: #ffffff; border: 1px solid #e2e8f0;">🚀 Getting Started</a>
-    <a href="#5--command-reference" style="text-decoration: none; color: #3b82f6; padding: 8px; border-radius: 6px; background: #ffffff; border: 1px solid #e2e8f0;">📚 Command Reference</a>
-    <a href="#6--advanced-usage" style="text-decoration: none; color: #3b82f6; padding: 8px; border-radius: 6px; background: #ffffff; border: 1px solid #e2e8f0;">⚡ Advanced Usage</a>
-    <a href="#7--troubleshooting" style="text-decoration: none; color: #3b82f6; padding: 8px; border-radius: 6px; background: #ffffff; border: 1px solid #e2e8f0;">🛠️ Troubleshooting</a>
-    <a href="#8--contributing" style="text-decoration: none; color: #3b82f6; padding: 8px; border-radius: 6px; background: #ffffff; border: 1px solid #e2e8f0;">🤝 Contributing</a>
-    <a href="#9--license" style="text-decoration: none; color: #3b82f6; padding: 8px; border-radius: 6px; background: #ffffff; border: 1px solid #e2e8f0;">📝 License</a>
-    <a href="#10--faq" style="text-decoration: none; color: #3b82f6; padding: 8px; border-radius: 6px; background: #ffffff; border: 1px solid #e2e8f0;">❓ FAQ</a>
-    <a href="#11--contact--community" style="text-decoration: none; color: #3b82f6; padding: 8px; border-radius: 6px; background: #ffffff; border: 1px solid #e2e8f0;">💬 Contact & Community</a>
-  </div>
+  
+  1. [🦄 Introduction](#1--introduction)
+  2. [✨ Features](#2--features)
+  3. [💻 Installation](#3--installation)
+      - [🪟 Windows](#-windows) 
+      - [🐧 Linux & 🍏 macOS](#-linux---macos)
+      - [🛠️ From Source](#-from-source)
+  4. [� Getting Started](#4--getting-started)
+  5. [📚 Command Reference](#5--command-reference)
+      - [🧩 Flutter Shortcuts](#-flutter-shortcuts)
+      - [🔧 Git Shortcuts](#-git-shortcuts)
+      - [�️ Interactive Menu](#-interactive-menu)
+  6. [⚡ Advanced Usage](#6--advanced-usage)
+      - [🔗 Aliases & Customization](#-aliases--customization)
+      - [📦 Templates (Coming Soon)](#-templates-coming-soon)
+  7. [🛠️ Troubleshooting](#7--troubleshooting)
+  8. [🤝 Contributing](#8--contributing)
+  9. [📝 License](#9--license)
+  10. [❓ FAQ](#10--faq)
+  11. [💬 Contact & Community](#11--contact--community)
+  
 </div>
-1. [🦄 Introduction](#1--introduction)
-2. [✨ Features](#2--features)
-3. [💻 Installation](#3--installation)
-    - [🪟 Windows](#-windows) 
-    - [🐧 Linux & 🍏 macOS](#-linux---macos)
-    - [🛠️ From Source](#-from-source)
-4. [🚀 Getting Started](#4--getting-started)
-5. [📚 Command Reference](#5--command-reference)
-    - [🧩 Flutter Shortcuts](#-flutter-shortcuts)
-    - [🔧 Git Shortcuts](#-git-shortcuts)
-    - [🗂️ Interactive Menu](#-interactive-menu)
-6. [⚡ Advanced Usage](#6--advanced-usage)
-    - [🔗 Aliases & Customization](#-aliases--customization)
-    - [📦 Templates (Coming Soon)](#-templates-coming-soon)
-7. [🛠️ Troubleshooting](#7--troubleshooting)
-8. [🤝 Contributing](#8--contributing)
-9. [📝 License](#9--license)
-10. [❓ FAQ](#10--faq)
-11. [💬 Contact & Community](#11--contact--community)
+
 
 ---
 
