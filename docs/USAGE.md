@@ -3,10 +3,121 @@
   <p style="font-size: 1.3em; color: #64748b; margin-bottom: 30px;">Comprehensive Documentation</p>
 </div>
 
-<div style="background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); padding: 20p### 🗂️ Interactive Menu
+<div style="background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); padding: 20p### 🗂️ In### 🗂️ Interactive Menu
+
+<div style="background: ### 🗂️ Interactive Menu
 
 <div style="background: #dbeafe; border: 2px solid #93c5fd; border-radius: 12px; padding: 20px; margin: 20px 0;">
-  <p style="margin: 0; color: #1e40af; font-size: 1.1em;"><strong>💡 Tip:</strong> Run <code style="background: #f1f5f9; padding: 4px 8px; border-radius: 4px; color: #3b82f6;">f m</code> to launch the interactive menu!</p>
+  <p style="margin: 0; color: #1e40af; font-size: 1.1em;"><strong>🚀 Comprehensive Workflow Coverage:</strong> The interactive menu includes <strong>30 powerful commands</strong> covering your entire Flutter development lifecycle!</p>
+</div>
+
+Run:
+```sh
+f m
+```
+
+The interactive menu provides a user-friendly numbered interface with **comprehensive command coverage**:
+
+#### 📱 **Basic Commands (1-8)**
+1. **Clean Project** - Remove build artifacts
+2. **Get Dependencies** - Fetch project dependencies (`f fp` or `f p`)
+3. **Build APK** - Create Android release package
+4. **Build Windows EXE** - Create Windows executable
+5. **Build Web** - Create web deployment
+6. **Open APK Folder** - Quick access to Android build output
+7. **Open Windows EXE Folder** - Quick access to Windows build output
+8. **Build App Bundle** - Create Android App Bundle
+
+#### ⚡ **Batch Operations (9-13)**
+9. **Clean & Build** - Automated workflow: clean → get → build APK
+10. **Clean & Release** - Automated workflow: clean → get → build release APK
+11. **Clean & Run** - Automated workflow: clean → get → run app
+12. **Show All Batches** - List all available batch operations
+13. **Create Custom Batch** - Build your own automation workflows
+
+#### 🛠️ **Development Tools (14-18)**
+14. **Run App** - Launch your application
+15. **Run Tests** - Execute test suite
+16. **Flutter Doctor** - Check development environment
+17. **Analyze Code** - Static code analysis
+18. **Format Code** - Auto-format Dart files
+
+#### 📦 **Package Management (19-25)**
+19. **Upgrade Dependencies** - Update all packages
+20. **Add Package** - Install new dependencies
+21. **Remove Package** - Uninstall packages
+22. **Open VS Code** - Launch project in VS Code
+23. **Flutter Upgrade** - Update Flutter SDK
+24. **Check Devices** - List connected devices
+25. **Show Outdated Packages** - Check for package updates
+
+#### 🔄 **Git Integration (26-28)**
+26. **Git Add All** - Stage all changes
+27. **Git Commit** - Commit with message
+28. **Git Push** - Push to remote repository
+
+#### 📊 **Utilities (29-30)**
+29. **Show Time Stats** - View productivity metrics (coming soon)
+30. **Exit** - Close the menu
+
+Simply **enter a number (1-30)** to execute the corresponding command. The menu handles complex commands automatically and prompts for additional input when needed.
+
+<div style="background: #f0fdf4; border: 2px solid #86efac; border-radius: 12px; padding: 20px; margin: 20px 0;">
+  <p style="margin: 0; color: #166534; font-size: 1.1em;"><strong>💡 Perfect for:</strong> Beginners learning Flutter commands, developers wanting quick access to common tasks, and anyone preferring guided workflow over memorizing shortcuts!</p>
+</div>e; border: 2px solid #93c5fd; border-radius: 12px; padding: 20px; margin: 20px 0;">
+  <p style="margin: 0; color: #1e40af; font-size: 1.1em;"><strong>🚀 Comprehensive Workflow Coverage:</strong> The interactive menu now includes <strong>24 powerful commands</strong> covering your entire Flutter development lifecycle!</p>
+</div>
+
+Run:
+```sh
+f m
+```
+
+The interactive menu provides a user-friendly numbered interface with **comprehensive command coverage**:
+
+#### 📱 **Project Management**
+1. **Clean Project** - Remove build artifacts
+2. **Get Dependencies** - Fetch project dependencies  
+3. **Build APK** - Create Android release package
+4. **Build Windows EXE** - Create Windows executable
+5. **Build Web** - Create web deployment
+6. **Open APK Folder** - Quick access to Android build output
+7. **Open Windows EXE Folder** - Quick access to Windows build output
+8. **Build App Bundle** - Create Android App Bundle
+
+#### 🛠️ **Development Tools**
+9. **Run App** - Launch your application
+10. **Run Tests** - Execute test suite
+11. **Flutter Doctor** - Check development environment
+12. **Analyze Code** - Static code analysis
+13. **Format Code** - Auto-format Dart files
+14. **Check Devices** - List connected devices
+
+#### 📦 **Package Management**
+14. **Upgrade Dependencies** - Update all packages
+15. **Add Package** - Install new dependencies
+16. **Remove Package** - Uninstall packages
+18. **Flutter Upgrade** - Update Flutter SDK
+20. **Show Outdated Packages** - Check for package updates
+
+#### 🔧 **Developer Tools**
+17. **Open VS Code** - Launch project in VS Code
+
+#### 🔄 **Git Integration**
+21. **Git Add All** - Stage all changes
+22. **Git Commit** - Commit with message
+23. **Git Push** - Push to remote repository
+
+24. **Exit** - Close the menu
+
+Simply **enter a number (1-24)** to execute the corresponding command. The menu handles complex commands automatically and prompts for additional input when needed (like package names or commit messages).
+
+<div style="background: #f0fdf4; border: 2px solid #86efac; border-radius: 12px; padding: 20px; margin: 20px 0;">
+  <p style="margin: 0; color: #166534; font-size: 1.1em;"><strong>💡 Perfect for:</strong> Beginners learning Flutter commands, developers wanting quick access to common tasks, and anyone preferring guided workflow over memorizing shortcuts!</p>
+</div>ive Menu
+
+<div style="background: #dbeafe; border: 2px solid #93c5fd; border-radius: 12px; padding: 20px; margin: 20px 0;">
+  <p style="margin: 0; color: #1e40af; font-size: 1.1em;"><strong>💡 Tip:</strong> Run <code style="background: #f1f5f9; padding: 4px 8px; border-radius: 4px; color: #3b82f6;">f m</code> to launch the comprehensive interactive menu with 30 commands covering your entire Flutter workflow!</p>
 </div>
 
 Run:
@@ -50,7 +161,7 @@ You'll see a menu with numbered options for common tasks. Just enter the number 
 
 ## 1. 🦄 Introduction
 
-**FlutterUnicorn CLI** is a blazing-fast, cross-platform command-line tool designed to supercharge your Flutter and Git workflow. It provides intuitive, one-letter shortcuts for common Flutter and Git commands, an interactive menu for beginners, and a privacy-first experience.
+**FlutterUnicorn CLI** is a blazing-fast, cross-platform command-line tool designed to supercharge your Flutter and Git workflow. It provides intuitive, one-letter shortcuts for common Flutter and Git commands, a comprehensive interactive menu with 30 commands for complete workflow coverage, and a privacy-first experience.
 
 ---
 
@@ -67,7 +178,7 @@ You'll see a menu with numbered options for common tasks. Just enter the number 
   </div>
   <div style="border: 2px solid #e2e8f0; border-radius: 12px; padding: 20px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white;">
     <h3 style="color: white; margin-top: 0; font-size: 1.3em;">🧩 Beginner Friendly</h3>
-    <p style="margin-bottom: 0; color: #f1f5f9;">Interactive menu and command-specific help</p>
+    <p style="margin-bottom: 0; color: #f1f5f9;">Comprehensive interactive menu with 30 commands covering complete Flutter workflow</p>
   </div>
   <div style="border: 2px solid #e2e8f0; border-radius: 12px; padding: 20px; background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); color: white;">
     <h3 style="color: white; margin-top: 0; font-size: 1.3em;">🖥️ Cross-Platform</h3>
@@ -284,7 +395,7 @@ This will show the main help menu with all available commands and usage examples
     </tr>
     <tr style="background: #f8fafc;">
       <td style="padding: 12px; font-family: 'Courier New', monospace; font-weight: bold; color: #3b82f6;"><code>f m</code></td>
-      <td style="padding: 12px;">Launch interactive menu</td>
+      <td style="padding: 12px;">Launch comprehensive interactive menu (30 commands)</td>
     </tr>
     <tr style="background: #ffffff;">
       <td style="padding: 12px; font-family: 'Courier New', monospace; font-weight: bold; color: #3b82f6;"><code>f -h</code></td>
@@ -340,6 +451,60 @@ You’ll be able to define your own command aliases and templates for even faste
 ### 📦 Templates (Coming Soon)
 *Planned feature:*  
 Generate new pages, widgets, or services with a single command, using built-in or user-defined templates.
+
+---
+
+## 6.5. ⚡ Batch Operations Guide
+
+### Quick Commands
+```bash
+# Short commands (recommended)
+f btc 1                       # Run "Clean & Build" batch
+f btc 2                       # Run "Clean & Release" batch  
+f btc 3                       # Run "Clean & Run" batch
+f btl                         # List all available batches
+f btcr                        # Create custom batch
+f btd 6                       # Delete custom batch
+
+# Long commands (alternative)
+f batch 1                     # Run batch by number
+f batch-list                  # Show all batches
+f batch-create                # Create custom batch
+f batch-delete 6              # Delete custom batch
+```
+
+### Predefined Batches
+1. **Clean & Build**: `flutter clean` → `flutter pub get` → `flutter build apk`
+2. **Clean & Release**: `flutter clean` → `flutter pub get` → `flutter build apk --release`
+3. **Clean & Run**: `flutter clean` → `flutter pub get` → `flutter run`
+
+### Creating Custom Batches
+When using `f btcr`, you can use either full Flutter commands or short commands:
+
+**Full Commands:**
+```
+Command 1: flutter clean
+Command 2: flutter pub get
+Command 3: flutter build apk
+Command 4: done
+```
+
+**Short Commands:**
+```
+Command 1: c
+Command 2: p
+Command 3: b
+Command 4: done
+```
+
+**Mixed Commands:**
+```
+Command 1: flutter clean
+Command 2: p
+Command 3: flutter analyze
+Command 4: git add .
+Command 5: done
+```
 
 ---
 

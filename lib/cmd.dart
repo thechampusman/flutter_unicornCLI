@@ -2,7 +2,9 @@ import 'dart:developer';
 import 'dart:io';
 
 import 'cmd_help.dart';
+import 'interactive_terminal.dart';
 import 'logger.dart';
+import 'batch_operations.dart';
 
 String? _cachedFlutterPath;
 
@@ -89,7 +91,9 @@ Future<void> handleCommand(List<String> args) async {
               : 'xdg-open';
       await _run([opener, folder]);
       break;
-
+case 'p': // f p = flutter pub get
+  await _run([flutter, 'pub', 'get']);
+  break;
     case 'fb':
       if (args.length < 2) {
         logger.warn('🚨 Use: fb apk | fb win');
@@ -221,7 +225,9 @@ case 'fandroid':
     case 'fit':
       await _run([flutter, 'test', 'integration_test']);  
       break;
-
+    case 'p': // f p = flutter pub get
+      await _run([flutter, 'pub', 'get']);
+       break;
     case 'fpu':
       await _run([flutter, 'pub', 'upgrade']);
       break;
@@ -238,43 +244,263 @@ case 'fandroid':
       await _run([flutter, 'build', 'web']);
       break;
 
+    case 'ios':
+      await _run([flutter, 'build', 'ios']);
+      break;
+
+    case 'macos':
+      await _run([flutter, 'build', 'macos']);
+      break;
+
+    case 'linux':
+      await _run([flutter, 'build', 'linux']);
+      break;
+
+    case 'fws':
+      await _run([flutter, 'run', '-d', 'web-server']);
+      break;
+
+    case 'fwc':
+      await _run([flutter, 'run', '-d', 'chrome']);
+      break;
+
+    case 'fwe':
+      await _run([flutter, 'run', '-d', 'edge']);
+      break;
+
+    case 'frl':
+      await _run([flutter, 'run', '--release']);
+      break;
+
+    case 'frd':
+      await _run([flutter, 'run', '--debug']);
+      break;
+
+    case 'frp':
+      await _run([flutter, 'run', '--profile']);
+      break;
+
+    case 'fcl':
+      await _run([flutter, 'clean']);
+      await _run([flutter, 'pub', 'get']);
+      break;
+
+    case 'fbt':
+      await _run([flutter, 'build', 'apk', '--target-platform', 'android-arm,android-arm64,android-x64']);
+      break;
+
+    case 'fbr':
+      await _run([flutter, 'build', 'apk', '--release']);
+      break;
+
+    case 'fbd':
+      await _run([flutter, 'build', 'apk', '--debug']);
+      break;
+
+    case 'fbp':
+      await _run([flutter, 'build', 'apk', '--profile']);
+      break;
+
+    case 'fgr':
+      await _run([flutter, 'pub', 'get']);
+      await _run([flutter, 'run']);
+      break;
+
+    case 'fpc':
+      await _run([flutter, 'pub', 'cache', 'repair']);
+      break;
+
+    case 'fpdry':
+      await _run([flutter, 'pub', 'deps']);
+      break;
+
+    case 'fcache':
+      await _run([flutter, 'precache']);
+      break;
+
+    case 'fconfig':
+      await _run([flutter, 'config']);
+      break;
+
+    case 'fassemble':
+      await _run([flutter, 'assemble', '--help']);
+      break;
+
+    case 'fattach':
+      await _run([flutter, 'attach']);
+      break;
+
+    case 'fdrive':
+      await _run([flutter, 'drive']);
+      break;
+
+    case 'finstall':
+      await _run([flutter, 'install']);
+      break;
+
+    case 'fscreen':
+      await _run([flutter, 'screenshot']);
+      break;
+
+    case 'fsymbol':
+      await _run([flutter, 'symbolize']);
+      break;
+
+    case 'ftrack':
+      await _run([flutter, 'downgrade']);
+      break;
+
+    case 'fch':
+      await _run([flutter, 'channel']);
+      break;
+
+    case 'fchb':
+      await _run([flutter, 'channel', 'beta']);
+      break;
+
+    case 'fchs':
+      await _run([flutter, 'channel', 'stable']);
+      break;
+
+    case 'fchd':
+      await _run([flutter, 'channel', 'dev']);
+      break;
+
+    case 'fchm':
+      await _run([flutter, 'channel', 'master']);
+      break;
+
+    // Package management shortcuts
+    case 'fadd':
+      if (args.length < 2) {
+        logger.warn('🚨 Use: fadd <package_name>');
+        exit(64);
+      }
+      await _run([flutter, 'pub', 'add', args[1]]);
+      break;
+
+    case 'fadddev':
+      if (args.length < 2) {
+        logger.warn('🚨 Use: fadddev <package_name>');
+        exit(64);
+      }
+      await _run([flutter, 'pub', 'add', 'dev:${args[1]}']);
+      break;
+
+    case 'fremove':
+      if (args.length < 2) {
+        logger.warn('🚨 Use: fremove <package_name>');
+        exit(64);
+      }
+      await _run([flutter, 'pub', 'remove', args[1]]);
+      break;
+
+    // Development shortcuts
+    case 'fhr':
+      logger.info('🔥 Hot reload triggered');
+      stdout.write('r');
+      break;
+
+    case 'fhrs':
+      logger.info('🔥 Hot restart triggered');
+      stdout.write('R');
+      break;
+
+    case 'fquit':
+      logger.info('👋 Quitting app');
+      stdout.write('q');
+      break;
+
+    // Project creation shortcuts
+    case 'fnew':
+      if (args.length < 2) {
+        logger.warn('🚨 Project name is required. Try: fnew my_app');
+        exit(64);
+      }
+      await _run([flutter, 'create', args[1]]);
+      break;
+
+    case 'fneworg':
+      if (args.length < 3) {
+        logger.warn('🚨 Use: fneworg <project_name> <org_name>');
+        exit(64);
+      }
+      await _run([flutter, 'create', '--org', args[2], args[1]]);
+      break;
+
+    case 'fnewpkg':
+      if (args.length < 2) {
+        logger.warn('🚨 Package name is required. Try: fnewpkg my_package');
+        exit(64);
+      }
+      await _run([flutter, 'create', '--template=package', args[1]]);
+      break;
+
+    case 'fnewplug':
+      if (args.length < 2) {
+        logger.warn('🚨 Plugin name is required. Try: fnewplug my_plugin');
+        exit(64);
+      }
+      await _run([flutter, 'create', '--template=plugin', args[1]]);
+      break;
+
+    // Testing shortcuts
+    case 'ftest':
+      await _run([flutter, 'test']);
+      break;
+
+    case 'ftestw':
+      await _run([flutter, 'test', '--watch']);
+      break;
+
+    case 'ftestcov':
+      await _run([flutter, 'test', '--coverage']);
+      break;
+
+    case 'fintegration':
+      await _run([flutter, 'test', 'integration_test']);
+      break;
+
+    // Code quality shortcuts
+    case 'flint':
+      await _run([flutter, 'analyze']);
+      break;
+
+    case 'fformat':
+      await _run([flutter, 'format', '.']);
+      break;
+
+    case 'ffix':
+      await _run(['dart', 'fix', '--apply']);
+      break;
+
+    // Build shortcuts with specific options
+    case 'fbundle':
+      await _run([flutter, 'build', 'appbundle', '--release']);
+      break;
+
+    case 'fwebr':
+      await _run([flutter, 'build', 'web', '--release']);
+      break;
+
+    case 'fwebd':
+      await _run([flutter, 'build', 'web', '--debug']);
+      break;
+
+    case 'fiosr':
+      await _run([flutter, 'build', 'ios', '--release']);
+      break;
+
+    case 'fiosd':
+      await _run([flutter, 'build', 'ios', '--debug']);
+      break;
+
     case 'm':
-  stdout.writeln('''
-🦄 Choose a command to run:
-1. Clean                            (fc OR c)
-2. Build APK                        (fb apk OR b)
-3. Build Windows                    (fb win)
-4. Open APK Output Folder           (fo OR o)  
-5. Flutter Pub Get                  (fp) 
-6. Open Windows EXE Output Folder   (fo win)
-7. Exit              
-''');
-  stdout.write('Enter your choice (1-7): ');
-  final input = stdin.readLineSync();
-  switch (input) {
-    case '1':
-      await handleCommand(['fc']);
+      final command = await InteractiveTerminal.showMenu();
+      if (command != null) {
+        await handleCommand(command);
+      }
       break;
-    case '2':
-      await handleCommand(['fb', 'apk']);
-      break;
-    case '3':
-      await handleCommand(['fb', 'win']);
-      break;
-    case '4':
-      await handleCommand(['fo']);
-      break;
-    case '5':
-      await handleCommand(['fp']);
-      break;
-    case '6':
-      await handleCommand(['fo', 'win']);
-      break;
-    default:
-      stdout.writeln('Goodbye!');
-      exit(0);
-  }
-  break;
  case 'g1':
   await _run(['git', 'add', '.']);
   break;
@@ -292,7 +518,47 @@ case 'g3':
   await _run(['git', 'push']);
   break;
 
+    // Batch Operations
+   
 
+  // Batch Operations
+case 'batch':
+case 'btc':
+  if (args.length < 2) {
+    BatchOperations.showAllBatches();
+    exit(0);
+  }
+  final batchNumber = int.tryParse(args[1]);
+  if (batchNumber == null) {
+    logger.error('❌ Invalid batch number. Use "f batch-list" to see available batches.');
+    exit(64);
+  }
+  await BatchOperations.runBatch(batchNumber);
+  break;
+
+case 'batch-list':
+case 'btcl':
+  BatchOperations.showAllBatches();
+  break;
+
+case 'batch-create':
+case 'btcc':
+  await BatchOperations.createCustomBatch();
+  break;
+
+case 'batch-delete':
+case 'rmbtc':
+  if (args.length < 2) {
+    logger.warn('🚨 Please provide batch number to delete.\n💡 Example: f batch-delete 6');
+    exit(64);
+  }
+  final batchNumber = int.tryParse(args[1]);
+  if (batchNumber == null) {
+    logger.error('❌ Invalid batch number.');
+    exit(64);
+  }
+  await BatchOperations.deleteCustomBatch(batchNumber);
+  break;
     default:
       logger.error('❌ Unknown command: $cmd');
       printUsage();

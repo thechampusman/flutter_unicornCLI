@@ -1,27 +1,230 @@
 import 'logger.dart';
 
 final Map<String, String> commandHelp = {
-  ///// about /////
-  'about': '''
-About
+  ///// Basic Commands /////
+  'c': '''
+Flutter Clean
 
-Shows CLI author and links.
-
-Example:
-  f about
-''',
-
-  ///// appbundle /////
-  'appbundle': '''
-Flutter Build AppBundle
-
-Builds an Android App Bundle (.aab) file from your app, which is required for Play Store uploads.
+Deletes the build/ and .dart_tool/ directories.
 
 Example:
-  f appbundle
+  f c
 ''',
 
-  ///// fa /////
+  'b': '''
+Flutter Build APK
+
+Builds an Android APK file from your app.
+
+Example:
+  f b
+''',
+
+  'fp': '''
+Flutter Pub Get
+
+Gets all the dependencies listed in pubspec.yaml.
+
+Example:
+  f fp
+''',
+
+  'fr': '''
+Flutter Run
+
+Runs your Flutter app on a connected device.
+
+Example:
+  f fr
+''',
+
+  'ft': '''
+Flutter Test
+
+Runs the unit tests for your app.
+
+Example:
+  f ft
+''',
+
+  'fd': '''
+Flutter Doctor
+
+Shows information about the installed tooling.
+
+Example:
+  f fd
+''',
+
+  'fo': '''
+Open Output Folder
+
+Opens the APK output folder in file explorer.
+
+Example:
+  f fo         (opens APK folder)
+  f fo win     (opens Windows EXE folder)
+''',
+
+  ///// Build Commands /////
+  'fb': '''
+Flutter Build
+
+Builds your app for different platforms.
+
+Examples:
+  f fb apk     (build APK)
+  f fb win     (build Windows)
+  f fb web     (build Web)
+  f fb ios     (build iOS)
+''',
+
+  'fbr': '''
+Flutter Build APK Release
+
+Builds a release APK optimized for distribution.
+
+Example:
+  f fbr
+''',
+
+  'fbd': '''
+Flutter Build APK Debug
+
+Builds a debug APK with debugging information.
+
+Example:
+  f fbd
+''',
+
+  'fbp': '''
+Flutter Build APK Profile
+
+Builds a profile APK for performance analysis.
+
+Example:
+  f fbp
+''',
+
+  'fbt': '''
+Flutter Build APK All Targets
+
+Builds APK for all target platforms (arm, arm64, x64).
+
+Example:
+  f fbt
+''',
+
+  'fbundle': '''
+Flutter Build App Bundle Release
+
+Builds a release Android App Bundle for Play Store.
+
+Example:
+  f fbundle
+''',
+
+  'fwebr': '''
+Flutter Build Web Release
+
+Builds a release web app optimized for production.
+
+Example:
+  f fwebr
+''',
+
+  'fwebd': '''
+Flutter Build Web Debug
+
+Builds a debug web app with debugging information.
+
+Example:
+  f fwebd
+''',
+
+  'fiosr': '''
+Flutter Build iOS Release
+
+Builds a release iOS app.
+
+Example:
+  f fiosr
+''',
+
+  'fiosd': '''
+Flutter Build iOS Debug
+
+Builds a debug iOS app.
+
+Example:
+  f fiosd
+''',
+
+  ///// Run Commands /////
+  'frl': '''
+Flutter Run Release
+
+Runs your app in release mode.
+
+Example:
+  f frl
+''',
+
+  'frd': '''
+Flutter Run Debug
+
+Runs your app in debug mode.
+
+Example:
+  f frd
+''',
+
+  'frp': '''
+Flutter Run Profile
+
+Runs your app in profile mode for performance analysis.
+
+Example:
+  f frp
+''',
+
+  'fws': '''
+Flutter Run Web Server
+
+Runs your app on a web server.
+
+Example:
+  f fws
+''',
+
+  'fwc': '''
+Flutter Run Chrome
+
+Runs your app in Chrome browser.
+
+Example:
+  f fwc
+''',
+
+  'fwe': '''
+Flutter Run Edge
+
+Runs your app in Microsoft Edge browser.
+
+Example:
+  f fwe
+''',
+
+  'fgr': '''
+Flutter Get and Run
+
+Gets dependencies and runs the app in one command.
+
+Example:
+  f fgr
+''',
+
+  ///// Package Management /////
   'fa': '''
 Flutter Pub Add
 
@@ -31,69 +234,281 @@ Example:
   f fa http
 ''',
 
-  ///// fan /////
-  'fan': '''
+  'fadd': '''
+Flutter Pub Add (Alternative)
+
+Adds a package to your pubspec.yaml dependencies.
+
+Example:
+  f fadd provider
+''',
+
+  'fadddev': '''
+Flutter Pub Add Dev Dependency
+
+Adds a package to your dev dependencies.
+
+Example:
+  f fadddev build_runner
+''',
+
+  'fremove': '''
+Flutter Pub Remove
+
+Removes a package from your pubspec.yaml.
+
+Example:
+  f fremove http
+''',
+
+  'frm': '''
+Flutter Pub Remove (Short)
+
+Removes a package from your pubspec.yaml.
+
+Example:
+  f frm http
+''',
+
+  'fpu': '''
+Flutter Pub Upgrade
+
+Upgrades all dependencies to their latest versions.
+
+Example:
+  f fpu
+''',
+
+  'fpc': '''
+Flutter Pub Cache Repair
+
+Repairs the pub cache if corrupted.
+
+Example:
+  f fpc
+''',
+
+  'fpdry': '''
+Flutter Pub Dependencies
+
+Shows dependency tree for your project.
+
+Example:
+  f fpdry
+''',
+
+  'fpo': '''
+Flutter Pub Outdated
+
+Shows outdated dependencies.
+
+Example:
+  f fpo
+''',
+
+  ///// Project Creation /////
+  'fnew': '''
+Flutter Create New Project
+
+Creates a new Flutter project.
+
+Example:
+  f fnew my_awesome_app
+''',
+
+  'fneworg': '''
+Flutter Create with Organization
+
+Creates a new Flutter project with custom organization.
+
+Example:
+  f fneworg my_app com.mycompany
+''',
+
+  'fnewpkg': '''
+Flutter Create Package
+
+Creates a new Flutter package.
+
+Example:
+  f fnewpkg my_package
+''',
+
+  'fnewplug': '''
+Flutter Create Plugin
+
+Creates a new Flutter plugin.
+
+Example:
+  f fnewplug my_plugin
+''',
+
+  ///// Testing /////
+  'ftest': '''
+Flutter Test
+
+Runs all unit tests.
+
+Example:
+  f ftest
+''',
+
+  'ftestw': '''
+Flutter Test Watch
+
+Runs tests and watches for file changes.
+
+Example:
+  f ftestw
+''',
+
+  'ftestcov': '''
+Flutter Test Coverage
+
+Runs tests and generates coverage report.
+
+Example:
+  f ftestcov
+''',
+
+  'fintegration': '''
+Flutter Integration Test
+
+Runs integration tests.
+
+Example:
+  f fintegration
+''',
+
+  'fit': '''
+Flutter Integration Test (Short)
+
+Runs integration tests.
+
+Example:
+  f fit
+''',
+
+  ///// Code Quality /////
+  'flint': '''
 Flutter Analyze
 
-Analyzes your project for errors and warnings.
+Analyzes your code for issues and potential improvements.
+
+Example:
+  f flint
+''',
+
+  'fan': '''
+Flutter Analyze (Short)
+
+Analyzes your code for issues.
 
 Example:
   f fan
 ''',
 
-  ///// far /////
-  'far': '''
-Flutter Pub Remove
+  'fformat': '''
+Flutter Format
 
-Removes a package from your pubspec.yaml dependencies.
-
-Example:
-  f far http
-''',
-
-  ///// fandroid /////
-  'fandroid': '''
-Open in Android Studio
-
-Opens the android folder in Android Studio.
+Formats all Dart files in your project.
 
 Example:
-  f fandroid
+  f fformat
 ''',
 
-  ///// fb /////
-  'fb': '''
-Flutter Build
+  'fmt': '''
+Flutter Format (Short)
 
-Builds your Flutter project for a specific platform.
-
-Examples:
-  f fb apk      # Build Android APK
-  f fb win      # Build Windows executable
-''',
-
-  ///// fc /////
-  'fc': '''
-Flutter Clean
-
-Removes the build/ and .dart_tool/ directories, cleaning the project.
-Useful when you want to rebuild everything from scratch.
+Formats all Dart files in your project.
 
 Example:
-  f fc
+  f fmt
 ''',
 
-  ///// fd /////
-  'fd': '''
-Flutter Doctor
+  'ffix': '''
+Dart Fix Apply
 
-Checks your environment and displays a report of the status of your Flutter installation.
+Applies automated fixes to your code.
 
 Example:
-  f fd
+  f ffix
 ''',
 
-  ///// fdv /////
+  ///// Flutter Channel Management /////
+  'fch': '''
+Flutter Channel
+
+Shows current Flutter channel.
+
+Example:
+  f fch
+''',
+
+  'fchs': '''
+Flutter Channel Stable
+
+Switches to stable channel.
+
+Example:
+  f fchs
+''',
+
+  'fchb': '''
+Flutter Channel Beta
+
+Switches to beta channel.
+
+Example:
+  f fchb
+''',
+
+  'fchd': '''
+Flutter Channel Dev
+
+Switches to dev channel.
+
+Example:
+  f fchd
+''',
+
+  'fchm': '''
+Flutter Channel Master
+
+Switches to master channel.
+
+Example:
+  f fchm
+''',
+
+  ///// Development Tools /////
+  'fhr': '''
+Hot Reload
+
+Triggers hot reload in running app.
+
+Example:
+  f fhr
+''',
+
+  'fhrs': '''
+Hot Restart
+
+Triggers hot restart in running app.
+
+Example:
+  f fhrs
+''',
+
+  'fquit': '''
+Quit App
+
+Quits the running Flutter app.
+
+Example:
+  f fquit
+''',
+
   'fdv': '''
 Flutter Devices
 
@@ -103,291 +518,408 @@ Example:
   f fdv
 ''',
 
-  ///// fenv /////
-  'fenv': '''
-Flutter Env
+  'fcl': '''
+Flutter Clean and Get
 
-Shows Flutter environment information.
-
-Example:
-  f fenv
-''',
-
-  ///// fit /////
-  'fit': '''
-Flutter Integration Test
-
-Runs integration tests in the integration_test directory.
+Cleans project and gets dependencies.
 
 Example:
-  f fit
+  f fcl
 ''',
 
-  ///// fl /////
-  'fl': '''
-Flutter Logs
+  'fcache': '''
+Flutter Precache
 
-Shows log output for your running Flutter app.
+Downloads and caches Flutter artifacts.
 
 Example:
-  f fl
+  f fcache
 ''',
 
-  ///// fl10n /////
+  'fconfig': '''
+Flutter Config
+
+Shows Flutter configuration.
+
+Example:
+  f fconfig
+''',
+
+  'fattach': '''
+Flutter Attach
+
+Attaches to a running Flutter app.
+
+Example:
+  f fattach
+''',
+
+  'fdrive': '''
+Flutter Drive
+
+Runs integration tests using Flutter Driver.
+
+Example:
+  f fdrive
+''',
+
+  'finstall': '''
+Flutter Install
+
+Installs a Flutter app to a connected device.
+
+Example:
+  f finstall
+''',
+
+  'fscreen': '''
+Flutter Screenshot
+
+Takes a screenshot of the running app.
+
+Example:
+  f fscreen
+''',
+
   'fl10n': '''
-Flutter gen-l10n
+Flutter Generate Localizations
 
-Generates localizations for your project.
+Generates localization files.
 
 Example:
   f fl10n
 ''',
 
-  ///// fmt /////
-  'fmt': '''
-Flutter Format
-
-Formats your Dart code according to style guidelines.
-
-Example:
-  f fmt
-''',
-
-  ///// fo /////
-  'fo': '''
-Open Output Folder
-
-Opens the folder containing your built APK or executable.
-
-Examples:
-  f fo         # Open APK output folder
-  f fo win     # Open Windows .exe output folder
-''',
-
-  ///// fp /////
-  'fp': '''
-Flutter Pub Get
-
-Fetches dependencies listed in your pubspec.yaml.
-
-Example:
-  f fp
-''',
-
-  ///// fpo /////
-  'fpo': '''
-Flutter Pub Outdated
-
-Shows outdated dependencies in your pubspec.yaml.
-
-Example:
-  f fpo
-''',
-
-  ///// fpu /////
-  'fpu': '''
-Flutter Pub Upgrade
-
-Upgrades all dependencies listed in your pubspec.yaml.
-
-Example:
-  f fpu
-''',
-
-  ///// fr /////
-  'fr': '''
-Flutter Run
-
-Runs your Flutter app on the connected device or emulator.
-
-Example:
-  f fr
-''',
-
-  ///// frm /////
-  'frm': '''
-Flutter Pub Remove (Alias)
-
-Removes a package from your pubspec.yaml dependencies.
-
-Example:
-  f frm http
-''',
-
-  ///// ft /////
-  'ft': '''
-Flutter Test
-
-Runs all unit and widget tests in your project.
-
-Example:
-  f ft
-''',
-
-  ///// fup /////
-  'fup': '''
-Flutter Upgrade
-
-Upgrades your Flutter SDK to the latest version.
-
-Example:
-  f fup
-''',
-
-  ///// fvs /////
-  'fvs': '''
-Open in VS Code
-
-Opens the current project in Visual Studio Code.
-
-Example:
-  f fvs
-''',
-
-  ///// g1 /////
+  ///// Git Shortcuts /////
   'g1': '''
-Git Add
+Git Add All
 
-Stages all changes in the current directory.
+Adds all changes to git staging.
 
 Example:
   f g1
 ''',
 
-  ///// g2 /////
   'g2': '''
 Git Commit
 
 Commits staged changes with a message.
 
 Example:
-  f g2 "your commit message"
+  f g2 "Added new feature"
 ''',
 
-  ///// g3 /////
   'g3': '''
 Git Push
 
-Pushes committed changes to the remote repository.
+Pushes commits to remote repository.
 
 Example:
   f g3
 ''',
 
-  ///// info /////
-  'info': '''
-System Info
+  ///// IDE Shortcuts /////
+  'fvs': '''
+Open VS Code
 
-Shows information about your OS, Dart version, and shell.
+Opens current project in Visual Studio Code.
+
+Example:
+  f fvs
+''',
+
+  'fandroid': '''
+Open Android Studio
+
+Opens Android Studio.
+
+Example:
+  f fandroid
+''',
+
+  ///// System Info /////
+  'info': '''
+System Information
+
+Shows system and environment information.
 
 Example:
   f info
 ''',
 
-  ///// m /////
-  'm': '''
-Interactive Menu
-
-Shows a beginner-friendly menu to run common commands.
-
-Example:
-  f m
-''',
-
-  ///// new /////
-  'new': '''
-Flutter Create
-
-Creates a new Flutter project.
-
-Example:
-  f new my_app
-''',
-
-  ///// version /////
   'version': '''
-Version
+FlutterUnicorn Version
 
-Shows the FlutterUnicorn CLI version.
+Shows FlutterUnicorn CLI version.
 
 Example:
   f version
 ''',
 
-  ///// web /////
+  'about': '''
+About FlutterUnicorn
+
+Shows CLI author and links.
+
+Example:
+  f about
+''',
+
+  ///// Interactive Menu /////
+  'm': '''
+Interactive Menu
+
+Opens an interactive menu with common commands.
+
+Example:
+  f m
+''',
+
+  ///// Legacy Commands /////
+  'appbundle': '''
+Flutter Build AppBundle
+
+Builds an Android App Bundle (.aab) file.
+
+Example:
+  f appbundle
+''',
+
   'web': '''
 Flutter Build Web
 
-Builds a web application bundle for deployment.
+Builds a web version of your app.
 
 Example:
   f web
 ''',
+
+  'ios': '''
+Flutter Build iOS
+
+Builds an iOS version of your app.
+
+Example:
+  f ios
+''',
+
+  'macos': '''
+Flutter Build macOS
+
+Builds a macOS version of your app.
+
+Example:
+  f macos
+''',
+
+  'linux': '''
+Flutter Build Linux
+
+Builds a Linux version of your app.
+
+Example:
+  f linux
+''',
+
+  ///// Batch Operations /////
+  'batch': '''
+Run Batch Operations
+
+Execute predefined or custom batch operations that run multiple commands in sequence.
+
+Usage:
+  f batch <number>      Run batch by number
+  f batch-list          Show all available batches
+  f batch-create        Create custom batch
+  f batch-delete <num>  Delete custom batch
+
+Examples:
+  f batch 1             # Run "Clean & Build" batch
+  f batch 2             # Run "Clean & Release" batch
+  f batch-list          # Show all batches
+  f batch-create        # Create your own batch
+
+Predefined Batches:
+  1. Clean & Build      (clean → get → build apk)
+  2. Clean & Release    (clean → get → build release apk)
+  3. Full Build Suite   (clean → get → analyze → test → build all)
+  4. Quick Setup        (clean → get → doctor)
+  5. Git Workflow       (add → commit → push)
+''',
+
+  'batch-list': '''
+List All Batch Operations
+
+Shows all available batch operations including predefined and custom batches.
+
+Example:
+  f batch-list
+''',
+
+  'batch-create': '''
+Create Custom Batch
+
+Create your own custom batch operation by combining multiple commands.
+
+Available commands for batches:
+  c, fp, b, fb, web, fr, ft, fd, fan, fmt, fpu, fa, frm, fvs, 
+  fup, fdv, fpo, g1, g2, g3, fo, appbundle
+
+Example:
+  f batch-create
+  
+Then follow the interactive prompts to:
+  1. Enter batch name
+  2. Enter batch description  
+  3. Add commands one by one
+  4. Type "done" when finished
+''',
+
+  'batch-delete': '''
+Delete Custom Batch
+
+Delete a custom batch operation by number.
+
+Usage:
+  f batch-delete <number>
+
+Example:
+  f batch-delete 6      # Delete custom batch #6
+  
+Note: Only custom batches can be deleted, predefined batches are protected.
+''',
 };
 
 void printUsage() {
-  logger.printBanner();
   logger.info('''
-\x1B[36m🦄Usage:\x1B[0m
-  f <command> [args]
-  f <command>-h / <command>--help  (for command-specific help)
+🦄 FlutterUnicorn CLI - The Ultimate Flutter Developer Tool
 
-\x1B[36m✔️Available Commands:\x1B[0m
-  m             Interactive menu
-  about         Show CLI author and links
-  appbundle     Flutter build appbundle (.aab)
-  fan           Flutter analyze
-  fa <pkg>      Flutter pub add <pkg>
-  fb apk  OR b  Flutter build apk
-  fb win        Flutter build windows
-  fc  OR c      Flutter clean
-  fd            Flutter doctor
-  fdv           Flutter devices
-  fenv          Flutter env
-  fit           Flutter integration_test
-  fl            Flutter logs
-  fl10n         Flutter gen-l10n
-  fmt           Flutter format .
-  fo  OR o      Open APK output folder
-  fo win        Open Windows .exe output folder
-  fp            Flutter pub get
-  fpo           Flutter pub outdated
-  fpu           Flutter pub upgrade
-  fr            Flutter run
-  frm <pkg>     Flutter pub remove <package>
-  ft            Flutter test
-  fup           Flutter upgrade
-  fvs           Open project in VS Code
-  fandroid      Open android folder in Android Studio
-  info          Show system info
-  new <name>    Flutter create <name>
-  version       Show CLI version
-  web           Flutter build web
-  -h, --help    Show help menu
-  
+USAGE:
+  f <command> [arguments]
 
-\x1B[36m🛠️ Git Commands:\x1B[0m
-  g1            git add .
-  g2            git commit -m "message"
-  g3            git push
+BASIC COMMANDS:
+  c                     Clean project (flutter clean)
+  b                     Build APK (flutter build apk)
+  fp                    Get dependencies (flutter pub get)
+  fr                    Run app (flutter run)
+  ft                    Run tests (flutter test)
+  fd                    Flutter doctor
+  fo [win]              Open output folder (APK or Windows EXE)
 
-\x1B[36m💡 Examples:\x1B[0m
-  f fc
-  f fb apk
-  f fa http
-  f fo win
-  f g1
-  f g2 "Initial commit"
-  f g3
+BUILD COMMANDS:
+  fb <platform>         Build for platform (apk, win, web, ios, macos, linux)
+  fbr                   Build release APK
+  fbd                   Build debug APK
+  fbp                   Build profile APK
+  fbt                   Build APK for all targets
+  fbundle               Build release App Bundle
+  fwebr                 Build release web
+  fwebd                 Build debug web
+  fiosr                 Build release iOS
+  fiosd                 Build debug iOS
 
-\x1B[36m📬 Feedback:\x1B[0m
-  💬 Want to suggest a new feature or command?
-  📧 Email: usmangourworkid@gmail.com
-  🕸️ GitHub: https://github.com/thechampusman/
-  🔗 LinkedIn: https://linkedin.com/in/thechampusman/
+RUN COMMANDS:
+  frl                   Run in release mode
+  frd                   Run in debug mode
+  frp                   Run in profile mode
+  fws                   Run on web server
+  fwc                   Run in Chrome
+  fwe                   Run in Edge
+  fgr                   Get dependencies and run
 
-\x1B[36m🔗 Source & Updates:\x1B[0m
-  🔐 This CLI is private & not open-source.
-  🚀 Download updates at: https://github.com/thechampusman/flutter_unicorn/releases
+PACKAGE MANAGEMENT:
+  fa <package>          Add package
+  fadd <package>        Add package (alternative)
+  fadddev <package>     Add dev dependency
+  fremove <package>     Remove package
+  frm <package>         Remove package (short)
+  fpu                   Upgrade dependencies
+  fpc                   Repair pub cache
+  fpdry                 Show dependency tree
+  fpo                   Show outdated packages
+
+PROJECT CREATION:
+  fnew <name>           Create new Flutter project
+  fneworg <name> <org>  Create project with custom organization
+  fnewpkg <name>        Create new package
+  fnewplug <name>       Create new plugin
+
+TESTING:
+  ftest                 Run unit tests
+  ftestw                Run tests in watch mode
+  ftestcov              Run tests with coverage
+  fintegration          Run integration tests
+  fit                   Run integration tests (short)
+
+CODE QUALITY:
+  flint                 Analyze code
+  fan                   Analyze code (short)
+  fformat               Format all code
+  fmt                   Format code (short)
+  ffix                  Apply automated fixes
+
+FLUTTER CHANNELS:
+  fch                   Show current channel
+  fchs                  Switch to stable
+  fchb                  Switch to beta
+  fchd                  Switch to dev
+  fchm                  Switch to master
+
+DEVELOPMENT TOOLS:
+  fhr                   Hot reload
+  fhrs                  Hot restart
+  fquit                 Quit app
+  fdv                   List devices
+  fcl                   Clean and get dependencies
+  fcache                Precache artifacts
+  fconfig               Show Flutter config
+  fattach               Attach to running app
+  fdrive                Run driver tests
+  finstall              Install app to device
+  fscreen               Take screenshot
+  fl10n                 Generate localizations
+
+GIT SHORTCUTS:
+  g1                    Git add all
+  g2 "<message>"        Git commit with message
+  g3                    Git push
+
+⚡ BATCH OPERATIONS:
+  batch <number>        Run batch operation by number
+  batch-list            Show all available batches
+  batch-create          Create custom batch operation
+  batch-delete <num>    Delete custom batch
+
+IDE SHORTCUTS:
+  fvs                   Open VS Code
+  fandroid              Open Android Studio
+
+SYSTEM INFO:
+  info                  Show system information
+  version               Show FlutterUnicorn version
+  about                 Show author and links
+
+INTERACTIVE:
+  m                     Open interactive menu
+
+HELP:
+  -h, --help            Show this help
+  <command>-h           Show help for specific command
+
+EXAMPLES:
+  f c                   # Clean project
+  f fb apk              # Build APK
+  f fa provider         # Add provider package
+  f fnew my_app         # Create new project
+  f g2 "Initial commit" # Git commit
+  f batch 1             # Run "Clean & Build" batch
+  f batch-create        # Create custom batch
+  f m                   # Interactive menu
+
+For detailed help on any command, use: f <command>-h
+Example: f fb-h
+
+🌟 FlutterUnicorn makes Flutter development faster and more enjoyable!
+Website: https://flutterunicorncli.netlify.app/
 ''');
 }
