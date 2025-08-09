@@ -1,52 +1,10 @@
-<!-- Existing badges -->
-![GitHub stars](https://img.shields.io/github/stars/thechampusman/flutter_unicornCLI)
-![GitHub forks](https://img.shields.io/github/forks/thechampusman/flutter_unicornCLI)
-![GitHub downloads](https://img.shields.io/github/downloads/thechampusman/flutter_unicornCLI/total)
-![GitHub release](https://img.shields.io/github/v/release/thechampusman/flutter_unicornCLI)
 
-<!-- New analytics badges -->
-![GitHub clones](https://img.shields.io/badge/dynamic/json?color=success&label=clones&query=%24.count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fthechampusman%2Fflutter_unicornCLI%2Ftraffic%2Fclones&logo=git)
-![GitHub visitors](https://img.shields.io/badge/dynamic/json?color=blue&label=visitors&query=%24.count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fthechampusman%2Fflutter_unicornCLI%2Ftraffic%2Fviews&logo=github)
-![GitHub watchers](https://img.shields.io/github/watchers/thechampusman/flutter_unicornCLI)
-![GitHub contributors](https://img.shields.io/github/contributors/thechampusman/flutter_unicornCLI)
-![GitHub issues](https://img.shields.io/github/issues/thechampusman/flutter_unicornCLI)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/thechampusman/flutter_unicornCLI)
-<!-- More detailed analytics -->
-![Total clones](https://img.shields.io/badge/total%20clones-fetching...-blue)
-![Unique visitors](https://img.shields.io/badge/unique%20visitors-fetching...-green)
-![Page views](https://img.shields.io/badge/page%20views-fetching...-orange)
 
 <!-- Visitor counter -->
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=thechampusman.flutter_unicornCLI)
-![Profile views](https://gpvc.arturio.dev/thechampusman)
 
-<!-- Hit counter -->
-![HitCount](https://hits.dwyl.com/thechampusman/flutter_unicornCLI.svg?style=flat-square)
 
-<!-- Repository stats card -->
-![Repo Stats](https://github-readme-stats.vercel.app/api/pin/?username=thechampusman&repo=flutter_unicornCLI&theme=dark)
 
-<div align="center">
-
-## 📊 FlutterUnicorn CLI Analytics
-
-[![GitHub stars](https://img.shields.io/github/stars/thechampusman/flutter_unicornCLI?style=for-the-badge&logo=github&color=yellow)](https://github.com/thechampusman/flutter_unicornCLI/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/thechampusman/flutter_unicornCLI?style=for-the-badge&logo=github&color=blue)](https://github.com/thechampusman/flutter_unicornCLI/network)
-[![GitHub watchers](https://img.shields.io/github/watchers/thechampusman/flutter_unicornCLI?style=for-the-badge&logo=github&color=orange)](https://github.com/thechampusman/flutter_unicornCLI/watchers)
-
-### 📈 Traffic Analytics (14-day window)
-![Total Clones](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthechampusman%2Fflutter_unicornCLI%2Fmain%2Fanalytics.json&query=%24.traffic.total_clones&style=for-the-badge&logo=git&label=Total%20Clones&color=orange)
-![Unique Clones](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthechampusman%2Fflutter_unicornCLI%2Fmain%2Fanalytics.json&query=%24.traffic.unique_clones&style=for-the-badge&logo=git&label=Unique%20Clones&color=red)
-
-![Total Views](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthechampusman%2Fflutter_unicornCLI%2Fmain%2Fanalytics.json&query=%24.traffic.total_views&style=for-the-badge&logo=eye&label=Total%20Views&color=purple)
-![Unique Visitors](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthechampusman%2Fflutter_unicornCLI%2Fmain%2Fanalytics.json&query=%24.traffic.unique_visitors&style=for-the-badge&logo=eye&label=Unique%20Visitors&color=pink)
-
-### 📦 Downloads & Activity
-![GitHub downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthechampusman%2Fflutter_unicornCLI%2Fmain%2Fanalytics.json&query=%24.downloads.total_downloads&style=for-the-badge&logo=download&label=Total%20Downloads&color=green)
-![GitHub release](https://img.shields.io/github/v/release/thechampusman/flutter_unicornCLI?style=for-the-badge&logo=github&color=purple)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/thechampusman/flutter_unicornCLI?style=for-the-badge&logo=git&color=pink)
-
-</div>
 
 # 🦄 FlutterUnicorn CLI
 
